@@ -1,7 +1,7 @@
 body{
     
     margin: 0;
-    background-color:#1e1e1e;
+ /*   background-color:#1e1e1e; */
     font-family: Inter, sans-serif;
     font-weight: 400;
 }
@@ -188,6 +188,7 @@ list-style: none;
 }
 
 .card {
+    box-sizing: border-box;
     display: flex;
     width: 319px;
     padding: 20px;
@@ -239,7 +240,7 @@ width: 100px;
 
 
 .card_text {
-
+    line-height: 21.6px;
 }
 
 .reasons {
