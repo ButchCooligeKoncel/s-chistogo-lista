@@ -1,4 +1,4 @@
- body{
+body{
     
     margin: 0;
     background-color:#1e1e1e;
@@ -24,11 +24,7 @@ blockquote {
     box-sizing: border-box;
     width: 360px;
     margin: auto;
-    min-height: 100px;
-
-}
-
-.content-section_subtitle {
+   /* min-height: 100px; */
 
 }
 
@@ -42,6 +38,125 @@ blockquote {
     background-color: #FEE42A;
     color: #131313; 
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 20px;
+}
+
+.header_logo {
+    display: block;
+    width: 78px;
+}
+
+.header_logo-image {
+    width: 100%;
+}
+
+.header_menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+
+}
+
+.header_menu-link {
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.header_menu-link_active .header_menu-link {
+    text-decoration: none;
+}
+
+.cover {
+    min-height: 258px;
+    padding: 7px 24px 32px 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 95% auto;
+}
+
+.cover_title {
+    width: 100%;
+    color: #fff;
+    font-family: 'EB Garamont', serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;
+}
+
+.accent_span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    padding: 0 20px 38px;
+
+}
+
+.intro_heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    color: #ccc; 
+    font-size: 16px;
+   
+}
+
+.intro_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.intro_date {
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.intro_main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.content-section_subtitle {
+
+}
+
+
 
 .content-section_list {
 
